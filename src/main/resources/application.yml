@@ -1,10 +1,7 @@
 spring:
-  application:
-    name: SpringBoot-AI-1
   ai:
     openai:
-      api-key: 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      
-      base-url: https://api.groq.com/openai
+      api-key: sk-proj-Q63XeGa2QW9sGNHDb50fT3BlbkFJe6rqcNnCKmBCPqG9lB1y
       chat:
         options:
-          model: llama3-70b-8192
+          model: gpt-4o-mini
